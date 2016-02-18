@@ -1,0 +1,5 @@
+Typeface myTypeface = Typeface.createFromAsset(this.getAssets(),
+                "digital.ttf");
+        TextView digital = (TextView) findViewById(R.id.textView45);
+        digital.setTypeface(myTypeface);
+    }
